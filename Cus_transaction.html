@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<link rel="stylesheet" href="Customer.css" />
+<header>
+    <div class="wrapper">
+        <ul class="nav-area">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./cus_transaction.html">Customer</a></li>
+        </ul>
+    </div>
+</header>
+</head>
+<body>
+    <div class="contain">
+    <h1 class="heading">Sparks Bank</h1>
+    </div>
+    
+       <button class="show-modal">SEND MONEY</button>
+    <div class="modal hidden">
+       <button class="close-modal">&times;</button>
+        <form id="money">
+        <h2 class="transf">Transfer Money</h2>
+        <label for="uname"><b>Name</b></label>
+        <input type="text" placeholder="Enter name" name="username" required>
+        <label for="uemail"><b>Email Id</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+        <label for="umoney"><b>Money</b></label>
+        <input type="text" placeholder="Rupees" name="umoney" required>
+        <button type="button_send" class="send">Send Money</button>
+        <button type="button_cancel" class="cancelbtn">Cancel</button>
+        </form>
+    </div>
+    <div class="overlay hidden"></div>
+       <button
+       class="button2" >SEE ALL TRANSACTIONS</button>
+    <script src="customer.js"></script>
+    <table id="customers">
+        <tr>
+            <th>SI.No</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Bank Balance(in $)</th>
+        </tr>
+         <tr>
+             <td>1.</td>
+             <td>Sofia</td>
+             <td>Sofiamamula@gmail.com</td>
+             <td>120230</td>
+         </tr>
+         <tr>
+            <td>2.</td>
+            <td>Hander</td>
+            <td>Hander@gmail.com</td>
+            <td>3430</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>John</td>
+            <td>John@gmail.com</td>
+            <td>9800002</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>Parker</td>
+            <td>Parker@gmail.com</td>
+            <td>67874</td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>Fernald</td>
+            <td>Fernald@gmail.com</td>
+            <td>986652</td>
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td>Saranya</td>
+            <td>Saranya@gmail.com</td>
+            <td>54002</td>
+        </tr>
+        <tr>
+            <td>7.</td>
+            <td>Lalitha</td>
+            <td>Lalitha@gmail.com</td>
+            <td>43332</td>
+        </tr>
+        <tr>
+            <td>8.</td>
+            <td>Doora</td>
+            <td>Doora@gmail.com</td>
+            <td>10000</td>
+        </tr>
+        <tr>
+            <td>9.</td>
+            <td>Kalyani</td>
+            <td>Kalyani@gmail.com</td>
+            <td>90002</td>
+        </tr>
+        <tr>
+            <td>10.</td>
+            <td>Surya</td>
+            <td>Surya@gmail.com</td>
+            <td>870000</td>
+        </tr>
+    </table>
+</body>
+</html>
